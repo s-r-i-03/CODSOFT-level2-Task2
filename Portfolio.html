@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <img src="photo.jpg" alt="">
+        <section id="home" class="landing">
+            <div class="container-land">
+                <div class="text">
+                    <h2>Hello, I'm Srija Dey</h2>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>I am a web developer with X years of experience. I specialize in building responsive,
+                        user-friendly websites using HTML, CSS, and JavaScript. I am passionate about learning new
+                        technologies and staying up-to-date with the latest web development trends.</p>
+                    <a href="#" class="button">Download Resume</a>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="projects">
+            <section class="my-skills">
+                <h2>My Skills</h2>
+                <div class="skill-boxes">
+                  <div class="skill-box">
+                    <p>HTML</p>
+                  </div>
+                  <div class="skill-box">
+                    <p>CSS</p>
+                  </div>
+                  <div class="skill-box">
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="skill-box">   
+                    <p>React</p>
+                  </div>
+                  <div class="skill-box">
+                   <p>PHP</p>
+                  </div>
+                  <div class="skill-box">
+                    <p>Python</p>
+                  </div>
+                </div>
+              </section>
+            <div class="container">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <h3>Amazon Clone</h3>
+                        <p>Developed an e-commerce platform inspired by Amazon, featuring a user-friendly interface,
+                            search functionality, and secure payment processing. Utilized technologies such as React,
+                            Node.js, and MongoDB to create a seamless user experience.</p>
+                        <a href="#" class="button">View Project</a>
+                    </li>
+                    <li>
+                        <h3>Real-Time Chat Application</h3>
+                        <p>Designed and built a real-time chat application using WebSockets, enabling instant messaging
+                            between users. Implemented features such as user authentication, chat rooms using a
+                            combination of Node.js, Express, and MongoDB. </p>
+                        <a href="#" class="button">View Project</a>
+                    </li>
+                    <li>
+                        <h3>Online Educational Website</h3>
+                        <p>Created an online educational platform offering interactive courses, quizzes, and assessments
+                            for students. Developed a responsive and accessible interface using HTML, CSS, and
+                            JavaScript, ensuring compatibility with various devices and browsers.</p>
+                        <a href="#" class="button">View Project</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <section id="contact">
+                <div class="container">
+                    <h2>Contact Me</h2>
+                    <div class="contact-info">
+                        <form class="contact-form" action="/submit_form" method="post">
+                            <div class="form-group">
+                              <label for="name">Name:</label>
+                              <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="message">Message:</label>
+                              <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                            </div>
+                            <button type="submit" class="button">Send Message</button>
+                          </form>
+                          <p>&copy; 2023 Srija Dey. All rights reserved.</p>
+                    </div>
+            </section>
+            
+        </footer>
+
+</body>
+
+</html>
